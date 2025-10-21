@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+
+# Build outputs
+dist/
+build/
+.turbo/
+
+# Logs & temp
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+.DS_Store
+
+# Env & secrets
+.env
+.env.*
+infra/secrets/
+apps/android/local.properties
+apps/android/.gradle/
+apps/android/**/build/
+apps/android/.idea/
+
+# IDE
+.idea/
+.vscode/
+
+# Coverage & cache
+coverage/
+.nyc_output/
+.cache/
+cache/
+tmp/
+*.tsbuildinfo

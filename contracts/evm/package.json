@@ -1,0 +1,19 @@
+{
+  "name": "@allyo/evm-contracts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "hardhat test",
+    "lint": "solhint 'contracts/**/*.sol'",
+    "coverage": "hardhat coverage"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^5.1.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.10",
+    "solhint": "^4.5.3",
+    "solidity-coverage": "^0.8.8"
+  }
+}

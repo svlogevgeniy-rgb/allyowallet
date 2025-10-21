@@ -1,0 +1,2 @@
+-dontwarn com.trustwallet.**
+-dontnote com.trustwallet.**

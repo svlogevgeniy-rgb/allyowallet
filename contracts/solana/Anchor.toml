@@ -1,0 +1,16 @@
+[features]
+seeds = true
+skip-lint = false
+
+[programs.localnet]
+allyo_smart_account = "ALLYo1111111111111111111111111111111111111"
+
+[registry]
+url = "https://api.mainnet-beta.solana.com"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "cargo test"
