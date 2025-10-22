@@ -20,5 +20,6 @@ Staff-level MVP implementation of the Allyo Wallet platform. The project collect
 - `contracts/` — smart contracts (Hardhat Solidity, Anchor Solana).
 - `infra/` — Docker Compose, env samples, database migrations/seeds (pending).
 - `scripts/` — helper scripts (pending).
+- `docs/USE_CONTEXT7.md` — how to enable Upstash Context7 MCP server for live documentation.
 
 Refer to `docs/ARCHITECTURE.md` for detailed architecture and roadmap.

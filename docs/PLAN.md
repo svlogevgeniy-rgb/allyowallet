@@ -9,6 +9,7 @@
 1. **Foundations**
    - Confirm architecture boundaries and interfaces (docs, diagrams, threat model outline).
    - Align monorepo tooling: pnpm workspaces for Node stack, Gradle for Android.
+   - Enable Upstash Context7 MCP server for live documentation during AI-assisted development.
 2. **Core Services**
    - Scaffold NestJS API with modular domains (auth, users, wallets, policies, tx, recovery, audit, blockchain connectors).
    - Define Prisma schema, migrations, seeds; integrate Zod DTO validation and Swagger.
