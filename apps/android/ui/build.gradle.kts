@@ -37,4 +37,5 @@ dependencies {
   implementation(libs.kotlinx.coroutines)
   implementation(libs.coil.compose)
   implementation(libs.compose.material3)
+  implementation(libs.compose.material.icons)
 }

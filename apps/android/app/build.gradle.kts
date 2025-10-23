@@ -1,8 +1,6 @@
 plugins {
   alias(libs.plugins.android.application)
   alias(libs.plugins.kotlin.android)
-  alias(libs.plugins.kotlin.kapt)
-  alias(libs.plugins.hilt)
 }
 
 android {
@@ -17,6 +15,7 @@ android {
     versionName = "0.1.0"
 
     testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    manifestPlaceholders["appAuthRedirectScheme"] = "allyo"
   }
 
   buildTypes {
@@ -72,14 +71,10 @@ dependencies {
   implementation(libs.androidx.paging.compose)
   implementation(libs.androidx.biometric)
   implementation(libs.compose.material3)
+  implementation(libs.compose.material.icons)
 
   implementation(libs.kotlinx.coroutines)
   implementation(libs.appauth)
-  implementation(libs.wallet.core)
-
-  implementation(libs.hilt.android)
-  implementation(libs.hilt.navigation.compose)
-  kapt(libs.hilt.compiler)
 
   debugImplementation("androidx.compose.ui:ui-tooling")
   debugImplementation("androidx.compose.ui:ui-test-manifest")

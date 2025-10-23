@@ -1,7 +1,5 @@
 package com.allyowallet.domain
 
-import javax.inject.Inject
-
-class WalletInteractor @Inject constructor() {
+class WalletInteractor {
     suspend fun loadSummary(): String = "Stub summary"
 }
